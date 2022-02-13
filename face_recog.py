@@ -1,4 +1,9 @@
-#cheer me up app
+# cheer me up app
+# edited from https://towardsdatascience.com/the-ultimate-guide-to-emotion-recognition-from-facial-expressions-using-python-64e58d4324ff
+# and https://www.geeksforgeeks.org/python-opencv-capture-video-from-camera/
+#
+# This python code uses live video feed to look at facial expressions and attempts to segment the current emotion
+# if the emotion is sad it will show a cheerful message in the output
 
 from fer import FER
 import matplotlib.pyplot as plt
